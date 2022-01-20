@@ -33,6 +33,20 @@ view.shake(toward: .top, amount: 0.5, duration: 2, delay: 0.5)
 
 ## Installation
 
+### Swift Package Manager
+
+You can add SimpleAnimation to an Xcode project by adding it as a package dependency.
+
+> https://github.com/Thieurom/SimpleAnimation
+
+If you want to use SimpleAnimation in a [SwiftPM](https://swift.org/package-manager/) project, it's as simple as adding it to a `dependencies` clause in your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/Thieurom/SimpleAnimation.git", from: "0.4.2")
+]
+```
+
 ### CocoaPods
 
 To integrate SimpleAnimation into a project using [CocoaPods](http://cocoapods.org), add the following to your `Podfile`:
